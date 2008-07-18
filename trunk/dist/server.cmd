@@ -1,1 +1,1 @@
-java -classpath RemoteExecuter-1.0.jar com.google.code.server.Server
+java -classpath remote-executer-1.0.1.jar com.google.code.server.Server
