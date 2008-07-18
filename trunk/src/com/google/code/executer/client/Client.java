@@ -1,4 +1,4 @@
-package pt.discoeuropa.remoteExecuter.client;
+package com.google.code.executer.client;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
