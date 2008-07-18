@@ -1,0 +1,1 @@
+java -classpath RemoteExecuter-1.0.jar pt.discoeuropa.remoteExecuter.client.Client notepad.cmd 127.0.0.1
