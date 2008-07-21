@@ -19,8 +19,7 @@ public class Server {
 
 		public void run() {
 			try {
-				BufferedReader reader = new BufferedReader(
-						new InputStreamReader(this.client.getInputStream()));
+				BufferedReader reader = new BufferedReader(new InputStreamReader(this.client.getInputStream()));
 				try {
 					Command command = new Command(reader.readLine());
 					command.execute();
