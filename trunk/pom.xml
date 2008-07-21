@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/POM/4.0.0">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.google.code.executer</groupId>
 	<artifactId>remote-executer</artifactId>
 	<name></name>
 	<version>1.0.1</version>
-	<description>Simple distributed application to execute scripts in
-		remote servers.</description>
+	<description>
+		Simple distributed application to execute scripts in remote
+		servers.
+	</description>
 	<packaging>jar</packaging>
+	<url>http://code.google.com/p/remote-executer/</url>
+	<scm>
+		<developerConnection>
+			https://remote-executer.googlecode.com/svn/trunk/
+		</developerConnection>
+		<url>
+			http://code.google.com/p/remote-executer/source/browse
+		</url>
+	</scm>
+	<issueManagement>
+		<url>http://code.google.com/p/remote-executer/issues/list</url>
+	</issueManagement>
 	<developers>
 		<developer>
 			<name>Sérgio Montelobo</name>
