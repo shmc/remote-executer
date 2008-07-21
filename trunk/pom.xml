@@ -5,8 +5,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.google.code.executer</groupId>
 	<artifactId>remote-executer</artifactId>
-	<name></name>
+	<name>Remote Executer</name>
 	<version>1.0.1</version>
+	<inceptionYear>2008</inceptionYear>
 	<description>
 		Simple distributed application to execute scripts in remote
 		servers.
