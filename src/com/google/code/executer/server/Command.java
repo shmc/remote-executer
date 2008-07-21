@@ -8,8 +8,7 @@ public class Command {
 
 	public Command(String name) {
 		if (name.contains("..")) {
-			throw new IllegalArgumentException(
-					"Only scripts in the current directory can be executed");
+			throw new IllegalArgumentException("Only scripts in the current directory can be executed");
 		}
 		this.name = name;
 	}
