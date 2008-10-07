@@ -6,22 +6,11 @@
 	<groupId>com.google.code.executer</groupId>
 	<artifactId>remote-executer</artifactId>
 	<name>Remote Executer</name>
-	<version>1.0.1</version>
-	<inceptionYear>2008</inceptionYear>
-	<description>
-		Simple distributed application to execute scripts in remote
-		servers.
-	</description>
+	<version>1.0.0</version>
+	<description>Simple distributed application to execute scripts in remote servers.</description>
 	<packaging>jar</packaging>
+	<inceptionYear>2008</inceptionYear>	
 	<url>http://code.google.com/p/remote-executer/</url>
-	<scm>
-		<developerConnection>
-			https://remote-executer.googlecode.com/svn/trunk/
-		</developerConnection>
-		<url>
-			http://code.google.com/p/remote-executer/source/browse
-		</url>
-	</scm>
 	<issueManagement>
 		<url>http://code.google.com/p/remote-executer/issues/list</url>
 	</issueManagement>
@@ -34,6 +23,11 @@
 			</roles>
 		</developer>
 	</developers>
+	<scm>
+		<connection>https://remote-executer.googlecode.com/svn/</connection>
+		<developerConnection>https://remote-executer.googlecode.com/svn/</developerConnection>
+		<url>http://code.google.com/p/remote-executer/source/browse/</url>
+	</scm>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 	</build>
