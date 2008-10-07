@@ -30,5 +30,11 @@
 	</scm>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>2.2</version>
+			</plugin>
+		</plugins>
 	</build>
 </project>
