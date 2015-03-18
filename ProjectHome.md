@@ -1,0 +1,1 @@
+The goal of this project is to create a Java client-server software to execute scripts in remote servers.
